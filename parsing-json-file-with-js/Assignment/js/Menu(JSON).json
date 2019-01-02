@@ -1,0 +1,60 @@
+{
+	"Menu": {
+		"food": [{
+				"name": "Aloo Tikki Chat",
+				"price": 5.00,
+				"description": "Shallow fried mashed potato cutlets garnished with chickpeas, yogurt and tamarind chutney",
+				"calories": 200
+
+			},
+
+			{
+				"name": "Pav Bhaji",
+				"price": 6.00,
+				"description": "Hot, Spicy, flavourful bhaji served with tava pavs",
+				"calories": 500
+			},
+
+			{
+				"name": "Goat Curry",
+				"price": 8.00,
+				"description": "Nice chopped meat pieces of lamb simmered in creamy base",
+				"calories": 1010
+			},
+
+			{
+				"name": "Paneer Butter Masala",
+				"price": 9.00,
+				"description": "Nice chopped pieces of paneer simmered in creamy base with onions and tangy spices",
+				"calories": 900
+			},
+
+			{
+			"name": "Naan",
+			"price": 1.50,
+			"description": "A bread made from hand kneaded special dough called Maida",
+			"calories": 150
+			},
+
+			{
+				"name": "Coke",
+				"price": 1.50,
+				"calories": 150
+			},
+
+			{
+				"name": "Ginger Ale",
+				"price": 1.50,
+				"calories": 150
+			},
+
+			{
+				"name": "Jack Daniels",
+				"price": 6.66,
+				"calories": 50
+			}
+		]
+
+
+	}
+}
