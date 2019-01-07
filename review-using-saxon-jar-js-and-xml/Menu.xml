@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE breakfast_menu
+[
+<!ELEMENT Menu (food*) >
+<!ELEMENT food (name,price,description,calories,copy)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT calories (#PCDATA)>
+<!ELEMENT copy (#PCDATA)>
+<!ENTITY copyright "Copyright 2018">
+]>
+
+<Menu>
+	<food>
+	    <name>Aloo Tikki Chat</name>
+	    <price>$5.00</price>
+	    <description>Shallow fried mashed potato cutlets garnished with chickpeas, yogurt and tamarind chutney</description>
+	    <calories>200</calories>
+	    <copy>&copyright;</copy>
+	 </food>
+
+	 <food>
+	    <name>Pav Bhaji</name>
+	    <price>$5.00</price>
+	    <description>Hot, Spicy, flavourful bhaji served with tava pavs</description>
+	    <calories>500</calories>
+	    <copy>&copyright;</copy>
+  	</food>
+  	<food>
+	    <name>Goat Curry</name>
+	    <price>$11.00</price>
+	    <description>Nice chopped pieces of lamb simmered in creamy base</description>
+	    <calories>1010</calories>
+	    <copy>&copyright;</copy>
+	</food>
+
+	<food>
+	  	<name>Paneer Butter Masala</name>
+	    <price>$10.00</price>
+	    <description>Nice chopped pieces of paneer simmered in creamy base with onions and tangy spices</description>
+	    <calories>900</calories>
+	    <copy>&copyright;</copy>
+  	</food>
+
+  	<food>
+	  	<name>Naan</name>
+	    <price>$1.50</price>
+	    <description>A bread made from hand kneaded special dough called "Maida"</description>
+	    <calories>150</calories>
+	    <copy>&copyright;</copy>
+  	</food>
+
+</Menu>

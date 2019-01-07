@@ -1,0 +1,22 @@
+{
+  "name": "oddly",
+  "version": "1.0.0",
+  "description": "Week 9 Assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://oddlylabs.com/Humber/CPAN202/src/week6/week6"
+  },
+  "author": "David Grzyb",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.5.4",
+    "express": "^4.16.4",
+    "xml2js": "^0.4.19",
+    "xmldom": "^0.1.27"
+  }
+}
